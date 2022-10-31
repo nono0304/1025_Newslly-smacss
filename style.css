@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body {
+    font-size: 14px;
+    color: #888888;
+    line-height: 1.7;
+    letter-spacing: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.l-inner {
+    width: 88%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-header {
+    padding: 30px 0s;
+
+}
+
+.title {
+    border-left: 10px solid #FA6980;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-col2 {
+    width: 46%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+.l-mb6 {
+    margin-bottom: 60px;
+}
+
+.l-py6 {
+    padding: 60px 0;
+}
+
+.l-bg-black {
+    color: #fff;
+    background-color: #202124;
+}
+
+.l-bg-gray {
+    background-color: #F6F6F6;
+}
+
+/*unit*/
+.unit-catch {
+    font-size: 12px;
+    color: #FA6980;
+    font-style: oblique;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 35px;
+}
+
+.unit-title {
+    color: #202124;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.unit-title-border {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/*btn*/
+.time {
+    margin-top: 20px;
+    padding-left: 26px;
+    color: #BBBBBB;
+    font-size: 12px;
+    background: url(./images/icon_time.png) no-repeat left center;
+}
+
+
+.btn {
+    background-color: #FA6980;
+    text-decoration: none;
+    color: #fff;
+    width: 160px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    padding: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-info {
+    background-color: #202124;
+}
+
+/*card*/
+
+.card {
+    background-color: #fff;
+}
+
+.card-body {
+    padding: 35px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #202124;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.l-footer {
+    padding: 100px 0 40px;
+    color: #BBBBBB;
+}
